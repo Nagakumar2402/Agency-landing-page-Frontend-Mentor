@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Barlow:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+:root {
+  --Soft_red: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --design_text: hsl(167, 40%, 24%);
+  --photography_text: hsl(198, 62%, 26%);
+  --Dark_moderate: hsl(168, 34%, 41%);
+  --Very_dark_blue: hsl(212, 27%, 19%);
+  --Very-dark_grayish_blue: hsl(213, 9%, 39%);
+  --Dark_grayish-blue: hsl(232, 10%, 55%);
+  --Grayish-blue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+
+  /* fonts sizes */
+
+  --size_xs: 0.5rem;
+  --size_sm: 0.7rem;
+  --size_md: 0.9rem;
+  --size_base: 1rem;
+  --size_lg: 1.1rem;
+  --size_regular: 1.2rem;
+  --size_xl: 1.3rem;
+  --size_2xl: 1.5rem;
+  --size_3xl: 1.7rem;
+  --size_4xl: 2rem;
+  --size_5xl: 2.4rem;
+  --size_6xl: 2.8rem;
+  --size_7xl: 3.2rem;
+  --size_8xl: 3.6rem;
+  --size_9xl: 4rem;
+  --size_10xl: 4.4rem;
+  --size_11xl: 4.8rem;
+  --size_12xl: 5.2rem;
+  --size_13xl: 5.6rem;
+  --size_14xl: 6rem;
+  --size_15xl: 6.4rem;
+  --size_16xl: 6.8rem;
+  --size_17xl: 7.2rem;
+  --size_18xl: 7.6rem;
+
+  --fw_400: 400;
+  --fw_600: 600;
+  --fw_700: 700;
+  --fw_900: 900;
+
+  --ff_barlow: "Barlow", sans-serif;
+  --ff_fraunces: "Fraunces", serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  /* padding: 0; */
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size-adjust: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  display: inline-block;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: var(--ff_fraunces);
+}
