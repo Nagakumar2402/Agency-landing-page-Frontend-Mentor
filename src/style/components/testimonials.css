@@ -1,0 +1,22 @@
+.testimonials {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 2.5rem;
+  padding: 3.8rem 2rem;
+}
+.testimonials_title {
+  font-weight: var(--fw_900);
+  font-size: var(--size_base);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: var(--Grayish-blue);
+  line-height: 1.2;
+}
+.testimonials_img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin-inline: auto;
+  margin-block: 1.5rem;
+}
