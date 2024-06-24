@@ -28,10 +28,15 @@ header {
   background-color: #fff;
   color: #000;
   text-transform: uppercase;
-
   border-radius: 25px;
   font-family: var(--ff_fraunces);
 }
+.nav__link_btn:hover {
+  background-color: #6ecfff;
+  cursor: pointer;
+  color: #fff;
+}
+
 @media (min-width: 448px) {
 }
 @media (min-width: 768px) {

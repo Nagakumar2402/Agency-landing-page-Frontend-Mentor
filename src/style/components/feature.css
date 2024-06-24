@@ -3,7 +3,6 @@
 }
 
 .feature_items {
-  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -136,8 +135,6 @@
     padding: 5.3rem 5rem 5.3rem 10rem;
   }
 
-  .feature_items {
-  }
   .feature_title {
     font-size: var(--size_5xl);
     align-self: flex-start;

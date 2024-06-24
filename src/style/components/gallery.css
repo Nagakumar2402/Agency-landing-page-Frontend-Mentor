@@ -1,0 +1,26 @@
+.gallery {
+  margin-inline: auto;
+}
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 448px) {
+}
+@media (min-width: 768px) {
+  .image-gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media (min-width: 992px) {
+  }
+  @media (min-width: 1024px) {
+  }
+  @media (min-width: 1200px) {
+  }
+  @media (min-width: 1440px) {
+    .gallery {
+      margin-inline: 0;
+    }
+  }
+}
