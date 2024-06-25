@@ -8,3 +8,10 @@ import "./src/style/components/gallery.css";
 import "./src/style/components/footer.css";
 import "./src/style/components/mobile-nav.css";
 import "./src/style/utils.css";
+
+const hamburgerMenu = document.querySelector(".mobile__bar"),
+  mobileMenu = document.querySelector(".mobile__menu");
+
+hamburgerMenu.addEventListener("click", () => {
+  mobileMenu.classList.toggle("active");
+});
